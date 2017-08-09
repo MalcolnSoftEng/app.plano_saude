@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_intro" android:icon="@drawable/iniciopeq"
+            android:title="Início" />
+        <item android:id="@+id/nav_1" android:icon="@drawable/ic_meuplano_384px"
+            android:title="MEU PLANO" />
+        <item android:id="@+id/nav_2" android:icon="@drawable/pin_redes_black_384px"
+            android:title="REDE CREDENCIADA" />
+
+        <item android:id="@+id/nav_3" android:icon="@android:drawable/ic_menu_month"
+            android:title="CONSULTAR REEMBOLSO" />
+
+
+        <item android:id="@+id/nav_4_contato" android:icon="@drawable/ic_tratamentos_384px"
+            android:title="TRATAMENTOS" />
+        <item android:id="@+id/action_exit"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="SAIR"
+            app:showAsAction="always"  />
+
+    </group>
+
+    <item android:title="Outros serviços">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="COMPARTILHAR APP" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

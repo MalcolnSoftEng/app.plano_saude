@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pedidoCabec"  >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tipo"
+            android:textSize="16sp"
+            android:id="@+id/txtNomeDentista"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp" />
+
+        <ImageButton
+            android:text="-"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/pin_redes_black_384px"
+            android:onClick="btnPinLocal"
+            android:id="@+id/btnPinLocal"
+            android:elevation="6dp"
+            android:stateListAnimator="@null"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_marginRight="26dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="26dp" />
+
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Endereço: " />
+
+        <TextView
+            android:id="@+id/txtEndereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/data"
+            android:layout_toRightOf="@+id/data"
+            android:text="logradouro" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distância:"
+            android:layout_alignBaseline="@+id/txtDist"
+            android:layout_alignBottom="@+id/txtDist"
+            android:layout_toLeftOf="@+id/btnPinLocal"
+            android:layout_toStartOf="@+id/btnPinLocal" />
+
+        <TextView
+            android:id="@+id/txtDist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="....Km"
+            android:layout_below="@+id/btnPinLocal"
+            android:layout_alignLeft="@+id/btnPinLocal"
+            android:layout_alignStart="@+id/btnPinLocal" />
+
+    </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

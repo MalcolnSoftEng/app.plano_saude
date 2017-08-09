@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/cardView1"
+        android:background="#ff1e00"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="6dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+    <ImageView
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="@drawable/logo96px"
+        android:text="ATENÇÃO"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        />
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#fc4542"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="#eefde938"
+        android:text="'Este aplicativo faz parte do sistema Inpao Informatizado, tendo por função apenas o demonstrativo do sistema na plataforma Android, existem vários planos do sistema, para maiores detalhes favor entrar em contato pelo próprio aplicativo, site, ou em 11 9.4547.0157 / 19 9.9528.3304 '"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        />
+        <TextView
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="#9ffd3838"
+            android:text="Promoções  \nEventos  \nAvaliações do Estabelecimento.
+        \nPágina com as características ou funcionalidades particulares do Estabelecimento. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

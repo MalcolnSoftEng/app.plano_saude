@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="6dp"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        app:cardCornerRadius="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="vertical">
+        <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_toolbar"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Odontologia para uma vida melhor"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beneficiario:"
+                    android:textStyle="bold"
+                    android:id="@+id/textFixBenefic" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:paddingLeft="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxx"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textFixBenefic"
+                    android:layout_toEndOf="@+id/textFixBenefic" />
+
+            </RelativeLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Titular:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixTitular" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixTitular"
+                        android:layout_toEndOf="@+id/textFixTitular" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Código:"
+                        android:textStyle="bold"
+                        android:id="@+id/textView6" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textView6"
+                        android:layout_toEndOf="@+id/textView6" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data de Nasc.:"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/textView4"
+                        android:layout_toStartOf="@+id/textView4" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textView4" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CPF:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixCPF" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixCPF"
+                        android:layout_toEndOf="@+id/textFixCPF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CNS:"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/txtCNS"
+                        android:layout_toStartOf="@+id/txtCNS" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/txtCNS" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Empresa:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixEmpresa" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixEmpresa"
+                        android:layout_toEndOf="@+id/textFixEmpresa" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Matricula:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixMatric" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixMatric"
+                        android:layout_toEndOf="@+id/textFixMatric" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plano:"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/textPlano"
+                        android:layout_toStartOf="@+id/textPlano" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textPlano" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data de Vigência:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixVig" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixVig"
+                        android:layout_toEndOf="@+id/textFixVig" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Data de Contrato:"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/txtDataContr"
+                        android:layout_toStartOf="@+id/txtDataContr" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/txtDataContr" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Carencias:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixCarencias" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ortodontia:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixOrto" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixOrto"
+                        android:layout_toEndOf="@+id/textFixOrto" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Periodontia:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixPeriod"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixPeriod"
+                        android:layout_toEndOf="@+id/textFixPeriod" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Protese:"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"
+                        android:layout_toLeftOf="@+id/textProtese"
+                        android:layout_toStartOf="@+id/textProtese" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xx"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/textProtese" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Endodontia:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixEndo" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixEndo"
+                        android:layout_toEndOf="@+id/textFixEndo" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Demais:"
+                        android:textStyle="bold"
+                        android:id="@+id/textFixDemais"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:paddingLeft="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxxxx"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/textFixDemais"
+                        android:layout_toEndOf="@+id/textFixDemais" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

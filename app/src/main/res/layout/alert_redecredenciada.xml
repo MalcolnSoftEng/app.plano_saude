@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_invertido_btn_tarefas">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#073e86"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/pesquisaCep">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_btn_tarefas"
+            android:orientation="horizontal"
+            android:id="@+id/btnPesquisaCep">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imgIconesCep"
+                app:srcCompat="@drawable/pin_redes_white_384px"
+                android:layout_above="@+id/imageView5"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp" />
+            <TextView
+                android:id="@+id/txtpesquisaCep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:text="PESQUISAR POR CEP OU RUA"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#f18802" />
+
+            <ImageView
+                android:id="@+id/imageIcoZoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView5"
+                android:layout_marginEnd="-6dp"
+                android:layout_marginRight="-6dp"
+                android:layout_toLeftOf="@+id/imgIconesCep"
+                android:layout_toStartOf="@+id/imgIconesCep"
+                app:srcCompat="@android:drawable/ic_menu_zoom" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/pesquisaGPS"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#073e86"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="0dp"
+        android:layout_below="@+id/pesquisaCep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_btn_tarefas"
+            android:orientation="horizontal"
+            android:id="@+id/btnPesquisaGPS">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/imgIconesGPS"
+                app:srcCompat="@drawable/pin_redes_white_384px"
+                android:layout_above="@+id/imageView1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp" />
+
+            <TextView
+                android:id="@+id/txtPesqGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:text="PESQUISAR POR GPS \n PROFISSIONAIS MAIS PRÓXIMOS"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#f18802" />
+
+            <ImageView
+                android:id="@+id/imageIcoZoomGPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView1"
+                android:layout_marginEnd="-6dp"
+                android:layout_marginRight="-6dp"
+                android:layout_toLeftOf="@+id/imgIconesGPS"
+                android:layout_toStartOf="@+id/imgIconesGPS"
+                app:srcCompat="@android:drawable/ic_menu_zoom" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="#073e86"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        android:padding="6dp"
+        android:layout_below="@+id/pesquisaGPS"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_btn_tarefas"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgVoltar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_above="@+id/imageViewRodape"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                app:srcCompat="?attr/actionModeCloseDrawable"
+                tools:srcCompat="?attr/actionModeCloseDrawable" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="2dp"
+                android:text="Voltar"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageViewRodape"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#f18802" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

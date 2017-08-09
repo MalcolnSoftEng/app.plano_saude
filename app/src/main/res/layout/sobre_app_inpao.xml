@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/cardView1"
+        android:background="#ff1e00"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="6dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+    <TextView
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:text="Odontologia Inteligente"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="'Caro cliente amigo InpaoDental estamos aqui para fornecer o melhor sistema informatizado no seu aplicativo InpaoDental.
+        \nEm sua página esta facilitado os botões para acionamento direto aos serviços:
+        \n1 - Detalhes DO MEU PLANO, contém ......
+         \n2 - Localizar REDE CREDENCIADA, ...............
+         \n3- Consultar REEMBOLSO .................
+         \n4 - Verificar HISTÓRICO DE TRATAMENTOS ............."
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:background="#2e5b8b"
+            android:text="Missão
+
+O INPAO Dental tem o compromisso de atingir e superar as expectativas dos seus usuários garantindo sua total satisfação tornando-se sinônimo de excelência em serviços odontológicos.
+
+Visão
+
+Ser referência em Odontologia de Grupo através da tecnologia, inovação, qualidade e excelência.
+
+Valores
+
+Desenvolvimento, respeito e participação;
+Comprometimento, ética, e transparência;
+Tecnologia e competência;
+Atendimento diferenciado;
+Excelência operacional;
+Credibilidade e valores;
+Rentabilidade e sustentabilidade;
+Responsabilidade sócio ambiental;
+Promover a odontologia como parte integrante à saúde.. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            />
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
